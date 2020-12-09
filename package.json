@@ -1,7 +1,7 @@
 {
-  "name": "node-template",
+  "name": "color-code",
   "version": "1.0.0",
-  "description": "node template",
+  "description": "color code",
   "main": "index.js",
   "scripts": {
     "start": "node -r dotenv/config ."
