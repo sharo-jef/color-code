@@ -1,4 +1,4 @@
-export default class ColorCode {
+class ColorCode {
     static black = '\u001b[30m';
     static red = '\u001b[31m';
     static green = '\u001b[32m';
@@ -9,3 +9,7 @@ export default class ColorCode {
     static white = '\u001b[37m';
     static reset = '\u001b[0m';
 }
+
+module.exports = {
+    ColorCode,
+};
